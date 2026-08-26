@@ -1,7 +1,7 @@
 # Quark Saver — Release Artifacts
 
-本仓库仅用于存放 **Quark Saver**（夸克网盘转存助手）的发布产物（GitHub Release 镜像），
-由主仓库 [`Xwudao/quark-saver`](https://github.com/Xwudao/quark-saver) 的 GitHub Actions 自动发布。
+本仓库仅用于存放 **Quark Saver**（夸克网盘转存助手）的公开发布产物（GitHub Release 镜像），
+由主仓库 `Xwudao/quark-saver`（私有源码仓）的 GitHub Actions 自动发布。
 
 > ⚠️ 请不要在本仓库提交代码。每次发版会由主仓库的 `release.yml` 自动创建对应的 Release。
 
@@ -22,6 +22,6 @@
 
 - 便携版同时镜像到 Cloudflare R2（路径 `/quark-saver/<随机前缀>/<版本>/`），链接会打印在主仓库对应 Release 的描述中。
 
-## 主仓库
+## 使用说明
 
-开发、源码与使用说明请前往：[Xwudao/quark-saver](https://github.com/Xwudao/quark-saver)
+使用说明请前往文档站：[Quark Saver 文档](https://hunhepan-docs.pages.dev/quark-saver/)
